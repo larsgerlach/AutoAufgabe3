@@ -1,0 +1,14 @@
+Dem Auto jedes Mal eine Räderzahl zuweisen zu müssen, ist ziemlich lästig - Mit einem Konstruktor geht das einfacher.
+
+- Baue in der Klasse Auto einen Konstruktor, der die anzahlRaeder immer auf 4 setzt.
+
+Dann die Methode zusammenbauen() entfernen, sie wird nicht mehr benötigt.
+
+Da ein Konstruktor wie eine Methode funktioniert, kannst du ihm auch Parameter mitgeben.
+
+Füge dem Konstruktor einen String-Parameter namens "automarke" hinzu und erstelle in der Klasse Auto ein entsprechendes Feld (private mit getter und setter).
+	- Daraufhin soll der Konstruktor dem Feld den übergebenen Wert zuweisen.
+	- Setze zusätzlich den Motor per Konstruktor auf false, damit die boolean niemals null sein kann. Somit geht man Nullpointern aus dem Weg, was sehr wichtig ist.
+
+
+Lass dir nun in der main-Methode zusätzlich die Automarke ausgeben, um zu überprüfen, ob alles funktioniert.
